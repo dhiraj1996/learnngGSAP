@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: white;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(59, 55, 55);
+}
+
+
+
+#nav {
+    background-color: brown;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 32px;
+}
+#subheading {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#head {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+
+
+
+#box1 {
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+}
+
+#box2 {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+#letter {
+    color: white;
+    text-align: center;
+}
+
+#box3 {
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+}
+
+#box4 {
+    background-color: olive;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* Topic = Timeline */
+#timeline {
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+#box5 {
+    background-color: rgb(194, 67, 8);
+    height: 200px;
+    width: 200px;
+}
+#box6 {
+    background-color: rgb(25, 122, 46);
+    height: 200px;
+    width: 200px;
+}
+#box7 {
+    background-color: rgb(49, 26, 92);
+    height: 200px;
+    width: 200px;
+}
