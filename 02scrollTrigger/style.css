@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    overflow-x: hidden;
+    /* overflow on x axis will get hidden */
+    /* here using for h1 element which is on h1 */
+}
+
+#hero {
+    background-color: #FFF2D7;
+    color: goldenrod;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section1 {
+    background-color: #FFE0B5;
+    color: goldenrod;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section2 {
+    background-color: #F8C794;
+    color: goldenrod;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3 {
+    background-color: #f7ba79;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4 {
+    background-color: #bd884f;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    /* padding: 50px 0; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#section5 {
+    background-color: #af6f2a;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    /* padding: 50px 0; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#box {
+    height:300px;
+    width: 300px;
+    background-color:#D8AE7E;
+    /* box-shadow: 16px 16px 4px #D8AE7E; */
+}
+
+#section4 h1 {
+    color: burlywood;
+    font-size: 80vh;
+    font-weight: 40vh;
+    transform: translateX(50%)
+
+}

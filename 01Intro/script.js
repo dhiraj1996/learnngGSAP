@@ -38,9 +38,9 @@ gsap.from("h2", {  //Here I selected h1 all of the h1 element are selected.
 
 gsap.to("#box4", {
     x:1000,
-    duration: 2,
+    duration: 2,  
     delay: 1,
-    rotate: 360,
+    rotate: 360, //It take degree value 360 degree rotate.
     //repeat 1 means to repeat 1 time it means 1st time it will run then it will repeat 1 time it means it will run for 2 times.
     // repeat: 1,
     //repeat: -1 means to run for infinite
